@@ -1,0 +1,21 @@
+{
+  "name": "blueprint",
+  "displayName": "Blueprint",
+  "description": "Blueprint-like light theme for VSCode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Blueprint",
+        "uiTheme": "vs",
+        "path": "./themes/Blueprint-color-theme.json"
+      }
+    ]
+  }
+}
