@@ -78,6 +78,13 @@
 			}
 		},
 		{
+			"name": "gdscript vars",
+			"scope": "entity.name.type.variant.gdscript",
+			"settings": {
+				"foreground": "#794dfe"
+			}
+		},
+		{
 			"name": "variable.language.rust",
 			"scope": "variable.language.rust",
 			"settings": {
@@ -400,12 +407,27 @@
 				"fontStyle": "bold italic"
 			}
 		},
+		{
+			"name": "rust attributes",
+			"scope": "meta.attribute.rust",
+			"settings": {
+				"fontStyle": "bold italic",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "mut rust",
+			"scope": "storage.modifier.mut.rust",
+			"settings": {
+				"fontStyle": "italic",
+			}
+		},
 		{ 
-		"name": "fn",
-		"scope": "source.rust meta.attribute.rust,keyword.other.fn.rust",
-		"settings": {
-			"foreground": "#ff3fcf",
-			"fontStyle": "bold italic"
+			"name": "fn",
+			"scope": "keyword.other.fn.rust",
+			"settings": {
+				"foreground": "#ce48ff",
+				"fontStyle": "bold italic"
 		}
 	},
 	{
